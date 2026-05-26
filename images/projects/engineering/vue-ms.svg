@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 720" role="img" aria-labelledby="title desc">
+  <title id="title">VueMS full-stack CMS placeholder</title>
+  <desc id="desc">A dark interface diagram showing CMS, REST API, users, rankings, and news content.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b0f"/>
+      <stop offset="0.6" stop-color="#12131a"/>
+      <stop offset="1" stop-color="#2d2140"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="960" height="720" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#d19f39">
+    <path d="M60 90h840M60 630h840M60 90v540M900 90v540"/>
+    <path d="M60 210h840M60 330h840M60 450h840M60 570h840"/>
+  </g>
+  <g font-family="Consolas, monospace">
+    <rect x="92" y="130" width="300" height="460" rx="10" fill="#15151b" stroke="#d19f39"/>
+    <text x="130" y="178" fill="#d19f39" font-size="30" font-weight="800">VueMS</text>
+    <text x="130" y="210" fill="#d19f39" font-size="16">admin content surface</text>
+    <rect x="130" y="255" width="220" height="44" rx="4" fill="#26232a" stroke="#4c463a"/>
+    <text x="154" y="283" fill="#cfc5b5" font-size="16">create news post</text>
+    <rect x="130" y="325" width="220" height="44" rx="4" fill="#26232a" stroke="#4c463a"/>
+    <text x="154" y="353" fill="#cfc5b5" font-size="16">manage users</text>
+    <rect x="130" y="395" width="220" height="44" rx="4" fill="#26232a" stroke="#4c463a"/>
+    <text x="154" y="423" fill="#cfc5b5" font-size="16">view rankings</text>
+    <rect x="130" y="465" width="220" height="44" rx="4" fill="#26232a" stroke="#4c463a"/>
+    <text x="154" y="493" fill="#cfc5b5" font-size="16">publish workflow</text>
+  </g>
+  <g stroke="#d19f39" stroke-width="3" stroke-dasharray="7 9">
+    <path d="M392 360h175"/>
+    <path d="M670 280v-85"/>
+    <path d="M670 360v85"/>
+    <path d="M670 360h145"/>
+  </g>
+  <g font-family="Consolas, monospace">
+    <circle cx="630" cy="360" r="70" fill="#101418" stroke="#d19f39" stroke-width="3"/>
+    <text x="630" y="354" text-anchor="middle" fill="#d19f39" font-size="28" font-weight="800">REST</text>
+    <text x="630" y="385" text-anchor="middle" fill="#d19f39" font-size="15">API</text>
+  </g>
+  <g font-family="Consolas, monospace" font-size="18" font-weight="700">
+    <rect x="560" y="120" width="220" height="90" rx="8" fill="#15151b" stroke="#d19f39"/>
+    <text x="670" y="158" text-anchor="middle" fill="#d19f39">Auth</text>
+    <text x="670" y="186" text-anchor="middle" fill="#d19f39">registration</text>
+    <rect x="560" y="505" width="220" height="90" rx="8" fill="#15151b" stroke="#d19f39"/>
+    <text x="670" y="543" text-anchor="middle" fill="#d19f39">SQL</text>
+    <text x="670" y="571" text-anchor="middle" fill="#d19f39">persistent data</text>
+    <rect x="760" y="315" width="150" height="90" rx="8" fill="#15151b" stroke="#d19f39"/>
+    <text x="835" y="353" text-anchor="middle" fill="#d19f39">Player</text>
+    <text x="835" y="381" text-anchor="middle" fill="#d19f39">portal</text>
+  </g>
+  <text x="48" y="650" fill="#d19f39" font-family="Consolas, monospace" font-size="18">VUE_MS / product-facing platform surface</text>
+</svg>
